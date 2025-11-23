@@ -525,22 +525,22 @@ export function getPeerBenchmarks(
   // Simplified benchmarks - would be data-driven in production
   const benchmarks: Record<
     string,
-    { count: number; cost: number; common: string[] }
+    { averageComplianceCount: number; averageCost: number; commonCompliances: string[] }
   > = {
     "Manufacturing-Small": {
-      count: 8,
-      cost: 45000,
-      common: ["gst", "epf", "esi", "professional-tax"],
+      averageComplianceCount: 8,
+      averageCost: 45000,
+      commonCompliances: ["gst", "epf", "esi", "professional-tax"],
     },
     "IT/Software-Small": {
-      count: 6,
-      cost: 35000,
-      common: ["gst", "tds", "professional-tax"],
+      averageComplianceCount: 6,
+      averageCost: 35000,
+      commonCompliances: ["gst", "tds", "professional-tax"],
     },
     "Retail-Small": {
-      count: 7,
-      cost: 40000,
-      common: ["gst", "shops-establishments", "professional-tax"],
+      averageComplianceCount: 7,
+      averageCost: 40000,
+      commonCompliances: ["gst", "shops-establishments", "professional-tax"],
     },
   };
 

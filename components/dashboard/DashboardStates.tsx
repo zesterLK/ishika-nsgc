@@ -196,7 +196,7 @@ export function OfflineNotice() {
     <div className="bg-yellow-50 border-l-4 border-yellow-500 p-3 mb-4 rounded-r-lg flex items-center gap-3">
       <WifiOff className="w-5 h-5 text-yellow-600 flex-shrink-0" />
       <p className="text-sm text-yellow-800">
-        You're offline. Some features may be limited.
+        You&apos;re offline. Some features may be limited.
       </p>
     </div>
   );
