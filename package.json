@@ -1,0 +1,45 @@
+{
+  "name": "sme-compliance-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate-data": "node scripts/generate-compliance-data.js"
+  },
+  "dependencies": {
+    "@radix-ui/react-icons": "^1.3.0",
+    "axios": "^1.6.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "docx": "^9.5.1",
+    "dotenv": "^16.3.1",
+    "file-saver": "^2.0.5",
+    "jspdf": "^3.0.4",
+    "jspdf-autotable": "^5.0.2",
+    "lucide-react": "^0.294.0",
+    "next": "^14.0.0",
+    "openai": "^4.20.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^3.5.0",
+    "tailwind-merge": "^2.0.0",
+    "typescript": "^5.3.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/jspdf": "^1.3.3",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.0",
+    "postcss": "^8.4.32",
+    "prettier": "^3.1.0",
+    "tailwindcss": "^3.3.6"
+  }
+}

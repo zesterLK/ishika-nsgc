@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 249 250 251;
+    --foreground: 15 23 42;
+    --border: 226 232 240;
+    --input: 226 232 240;
+    --ring: 37 99 235;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  /* Fade in animation for step transitions */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.3s ease-out;
+  }
+
+  /* Shake animation for errors */
+  @keyframes shake {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+      transform: translateX(-5px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+      transform: translateX(5px);
+    }
+  }
+
+  .animate-shake {
+    animation: shake 0.5s ease-in-out;
+  }
+
+  /* Prevent zoom on input focus on iOS */
+  @media screen and (max-width: 768px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="tel"],
+    select,
+    textarea {
+      font-size: 16px !important;
+    }
+  }
+}
+
+/* Print styles for reports */
+@media print {
+  /* Hide navigation and controls */
+  nav,
+  aside,
+  .no-print,
+  button {
+    display: none !important;
+  }
+
+  /* Optimize layout for print */
+  body {
+    font-size: 11pt;
+    color: black;
+    background: white;
+  }
+
+  /* Page breaks */
+  section {
+    page-break-inside: avoid;
+  }
+
+  h2 {
+    page-break-after: avoid;
+  }
+
+  /* Remove shadows and optimize borders for print */
+  .card,
+  .bg-white,
+  .border {
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+  }
+
+  /* Ensure proper spacing */
+  .mb-12,
+  .mb-6 {
+    margin-bottom: 1.5rem !important;
+  }
+
+  /* Optimize colors for print */
+  .text-gray-600,
+  .text-gray-700 {
+    color: #333 !important;
+  }
+
+  /* Hide interactive elements */
+  .hover\:shadow-md,
+  .transition-shadow {
+    box-shadow: none !important;
+  }
+}

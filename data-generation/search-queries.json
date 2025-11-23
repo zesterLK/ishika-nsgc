@@ -1,0 +1,95 @@
+{
+  "compliances": [
+    {
+      "id": "gst",
+      "name": "Goods and Services Tax",
+      "queries": [
+        "GST return filing deadlines India 2025 GSTR-1 GSTR-3B",
+        "GST compliance requirements monthly quarterly India threshold 20 lakh 40 lakh",
+        "GST penalty late filing India 2025 interest charges"
+      ]
+    },
+    {
+      "id": "epf",
+      "name": "Employee Provident Fund",
+      "queries": [
+        "EPF ECR filing deadline India 2025 employee provident fund compliance",
+        "EPF contribution rate employer employee percentage India 2025",
+        "EPF penalty late payment interest charges India 2025"
+      ]
+    },
+    {
+      "id": "esi",
+      "name": "Employee State Insurance",
+      "queries": [
+        "ESI return filing deadline India 2025 ESIC compliance monthly",
+        "ESI contribution rate employer employee percentage India 2025",
+        "ESI penalty late filing charges India 2025"
+      ]
+    },
+    {
+      "id": "professional-tax",
+      "name": "Professional Tax",
+      "queries": [
+        "Professional tax due date state wise India 2025 Maharashtra Karnataka",
+        "Professional tax rates state wise India 2025 applicability threshold",
+        "Professional tax penalty late payment India 2025 state specific"
+      ]
+    },
+    {
+      "id": "tds",
+      "name": "Tax Deducted at Source",
+      "queries": [
+        "TDS return filing deadline India 2025 Form 24Q 26Q Challan 281",
+        "TDS compliance requirements threshold rates India 2025",
+        "TDS penalty late filing interest charges India 2025"
+      ]
+    },
+    {
+      "id": "msme-annual-return",
+      "name": "MSME Annual Return",
+      "queries": [
+        "MSME annual return filing deadline India 2025 Udyam registration",
+        "MSME annual return form requirements India 2025 compliance",
+        "MSME annual return penalty late filing India 2025"
+      ]
+    },
+    {
+      "id": "msme-form-1",
+      "name": "MSME Form 1 - Delayed Payment Reporting",
+      "queries": [
+        "MSME Form 1 delayed payment reporting deadline India 2025",
+        "MSME Form 1 half yearly return filing requirements India 2025",
+        "MSME Form 1 penalty non filing India 2025 delayed payment"
+      ]
+    },
+    {
+      "id": "income-tax-return",
+      "name": "Income Tax Return",
+      "queries": [
+        "Income tax return filing deadline India 2025 ITR-3 ITR-4 due date",
+        "Income tax return forms ITR-3 ITR-4 applicability business India 2025",
+        "Income tax return penalty late filing India 2025 interest charges"
+      ]
+    },
+    {
+      "id": "tax-audit",
+      "name": "Tax Audit",
+      "queries": [
+        "Tax audit report filing deadline India 2025 Form 3CD 3CA",
+        "Tax audit applicability threshold turnover India 2025 Section 44AB",
+        "Tax audit penalty non compliance India 2025"
+      ]
+    },
+    {
+      "id": "shops-establishments",
+      "name": "Shops & Establishments Act",
+      "queries": [
+        "Shops and Establishments Act registration renewal deadline India 2025",
+        "Shops and Establishments Act compliance requirements state wise India 2025",
+        "Shops and Establishments Act penalty non compliance India 2025"
+      ]
+    }
+  ]
+}
+
