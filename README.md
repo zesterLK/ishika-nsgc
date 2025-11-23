@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue)](https://www.typescriptlang.org/)
 
-🔗 [Live Demo](https://your-demo-url.vercel.app) | 📖 [Documentation](#getting-started) | 🐛 [Report Issue](https://github.com/your-username/ishika-nsgc/issues)
+🔗 [Live Demo]([https://your-demo-url.vercel.app](https://ishika-nsgc.vercel.app/)) | 📖 [Documentation](#getting-started) | 🐛 [Report Issue](https://github.com/your-username/ishika-nsgc/issues)
 
 ---
 
